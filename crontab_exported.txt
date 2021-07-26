@@ -1,0 +1,6 @@
+5 0 * * * /home/azureuser/instabug_work/block_inactive_bugs_RUNNER.sh
+0 8 * * sun,mon,tue,wed,thu,fri,sat /home/azureuser/instabug_work/queue-open.sh
+0 14 * * mon,tue,wed,thu,fri /home/azureuser/instabug_work/open-so-far.sh
+30 10 * * sun,sat /home/azureuser/instabug_work/open-so-far.sh
+0 20 * * mon,tue,wed,thu,fri /home/azureuser/instabug_work/queue-close.sh
+0 13 * * sun,sat /home/azureuser/instabug_work/queue-close.sh

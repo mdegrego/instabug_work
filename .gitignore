@@ -1,0 +1,7 @@
+.DS_Store
+/logs.archive
+*.tar.gz
+*.tgz
+*.tar
+*.gz
+LASTRUN_*

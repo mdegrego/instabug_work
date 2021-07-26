@@ -1,0 +1,20 @@
+------WebKitFormBoundaryU0KDqCvKphclST6c
+Content-Disposition: form-data; name="body"
+
+Questa segnalazione viene chiusa automaticamente essendo trascorsi più di 14 giorni da quando è stata aperta. Ti preghiamo pertanto di non rispondere.
+
+Per ulteriori domande o se avessi ancora necessità del nostro supporto, puoi scriverci aprendo una NUOVA segnalazione direttamente dall'app IO: tocca il punto di domanda (?) che si trova in alto a destra in ogni schermata dell'app, scorri fino in fondo e premi il pulsante "Scrivi al team di IO" (non utilizzare il pulsante "Riapri una segnalazione").
+
+Per maggiori informazioni sull'app IO ti invitiamo a consultare il sito https://io.italia.it. In particolare, per saperne di più sul programma Cashback fai riferimento alla sezione dedicata https://io.italia.it/cashback e alle domande frequenti https://io.italia.it/cashback/faq
+
+Il team di assistenza di app IO è disponibile tutti i giorni (ad esclusione delle festività nazionali):
+
+- dal lunedì al venerdì: dalle ore 8.00 alle 20.00
+- sabato e domenica: dalle ore 8.00 alle 13.00
+
+Il Team IO Support
+------WebKitFormBoundaryU0KDqCvKphclST6c
+Content-Disposition: form-data; name="actions"
+
+[]
+------WebKitFormBoundaryU0KDqCvKphclST6c--
