@@ -1,13 +1,13 @@
 #!/bin/bash
 #
-# count_in_progress.sh / v1.01 / Linux version
-# last updated: Rome, 2021 Feb 24
+# count_in_progress.sh / v2.00 / Linux version
+# last updated: Rome, 2021 Jul 29
 # authors: MdG
 #
 # Cosa fa questo script: conta tutti i bug che soddisfano
 #
-# PRIORITY = "N/A" or "Trivial"
-# ASSIGNEE = "N/A"
+# PRIORITY = ANY
+# ASSIGNEE = ANY
 # STATUS = "In progress"
 
 DIR=$(cd "$(dirname "$0")"; pwd)
@@ -27,7 +27,7 @@ while [ "${CURRENT_DATE}" != "${END_DATE}" ]; do
   DATE_TO=${DATE_TO}"999"
 
   API_OUT=$(curl --silent --location --request GET \
-  "https://dashboard-api.instabug.com/api/web/applications/io-l-app-dei-servizi-pubblici/beta/bugs?direction=asc&filters=%7B%22status_id%22:%5B3%5D,%22assignee_id%22:%5B-1%5D,%22priority_id%22:%5B-1,1%5D,%22reported_at%22:%7B%22from%22:${DATE_FROM},%22to%22:${DATE_TO}%7D%7D" \
+  "https://dashboard-api.instabug.com/api/web/applications/io-l-app-dei-servizi-pubblici/beta/bugs?direction=asc&filters=%7B%22status_id%22:%5B3%5D,%22reported_at%22:%7B%22from%22:${DATE_FROM},%22to%22:${DATE_TO}%7D%7D" \
   --header "Authorization: Token token=${USER_TOKEN}, email=${USER_EMAIL}" | jq -r ".count")
 
   printf "\n%s In-Progress: %s" ${CURRENT_DATE} ${API_OUT}
